@@ -43,7 +43,7 @@ object test01_testoperator {
         println(n1.+(n2))
         println(n1 + n2)
 
-        println(7.5toString)
+        println(7.5 toString)
     }
 
 }
