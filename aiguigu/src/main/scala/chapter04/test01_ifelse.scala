@@ -45,6 +45,14 @@ object test01_ifelse {
         }
         println(result1)
 
+        if (age >= 18){
+            println("cheng nian")
+            if (age >= 35){
+                if (age >= 60){
+                    println("lao niang")
+                }
+            }
+        }
 
         val res = if (age > 18) "成年" else "未成年"
         println(res)
