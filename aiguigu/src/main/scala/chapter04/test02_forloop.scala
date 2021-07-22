@@ -76,6 +76,16 @@ object test02_forloop {
       println("i = " + i + ", j = " + j)
     }
 
+    // 7 循环返回值
+    val a: Unit = for (i <- 1 to 10){  // 默认返回值为空
+      println(i)
+    }
+    println(a)
+
+    val b = for (i <- 1 to 10) yield i * i
+    println("b = " + b)
+
+
 
   }
 
