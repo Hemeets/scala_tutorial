@@ -46,10 +46,13 @@ object test09_closureandcurrying {
       b => a + b
     }
 
-    def addByA3(a: Int): Int=>Int = {
-      b => a + b
-    }
+    def addByA3(a: Int): Int=>Int = a + _
 
+    // 5 柯里化, 底层一定是闭包
+    def addcurrying(a: Int)(b: Int): Int = {
+      a + b
+    }
+    println(addcurrying(35)(24))
 
   }
 
