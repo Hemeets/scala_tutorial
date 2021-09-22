@@ -11,7 +11,7 @@ object test05_matchcaseclass {
     }
 
     println(result)
-    
+
   }
 
 }
