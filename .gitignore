@@ -4,5 +4,7 @@ aiguigu/target/
 pom.xml
 .idea/
 target/
-.gitignore
 scala_tutorial.iml
+aiguigu/src/main/resources
+aiguigu/src/main/scala/spark_test
+*.DS_Store
